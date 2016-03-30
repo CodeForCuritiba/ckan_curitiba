@@ -21,4 +21,11 @@ Start creating a working directory.
 ```
 Where `PATH_TO_CKAN_CURITIBA` is the relative path from the Vagrantfile to the ckan_curitiba project folder
 
+## Start CKAN server
+
+ 1. `vagrant up`
+ 2. `vagrant ssh`
+ 3. `. /usr/lib/ckan/default/bin/activate`
+ 4. `paster serve /usr/lib/ckan/default/src/ckan_curitiba/development.ini`
+
 
