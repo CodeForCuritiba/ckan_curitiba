@@ -29,3 +29,15 @@ Where `PATH_TO_CKAN_CURITIBA` is the relative path from the Vagrantfile to the c
  4. `paster serve /usr/lib/ckan/default/src/ckan_curitiba/development.ini`
 
 You're done and you can access the site here: http://127.0.0.1:5000
+
+# Already configured
+
+## Sysadmin
+Login: pdac
+Password: portal@2016
+
+# Documentation
+
+*CKAN Maintainer's guide* http://docs.ckan.org/en/latest/maintaining/index.html
+*CKAN Configuration* http://docs.ckan.org/en/latest/maintaining/configuration.html
+
