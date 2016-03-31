@@ -17,9 +17,7 @@ Start creating a working directory.
 ```
     config.vm.network "forwarded_port", guest: 8983, host: 8983
     config.vm.network "forwarded_port", guest: 5000, host: 5000
-    config.vm.synced_folder "PATH_TO_CKAN_CURITIBA", "/usr/lib/ckan/default/src/ckan_curitiba"
 ```
-Where `PATH_TO_CKAN_CURITIBA` is the relative path from the Vagrantfile to the ckan_curitiba project folder
 
 ## Start CKAN server
 
